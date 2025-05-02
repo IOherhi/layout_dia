@@ -72,6 +72,13 @@
       border-radius: 8px;
       color: white;
 
+      transition: transform 400ms;
+      will-change: transform;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
       @include on-tablet640 {
         width: 264px;
         margin-top: 64px;

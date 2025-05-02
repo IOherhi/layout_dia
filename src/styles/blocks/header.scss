@@ -144,6 +144,14 @@
       font-weight: 600;
       font-family: Poppins, sans-serif;
 
+
+       transition: transform 400ms;
+       will-change: transform;
+
+       &:hover {
+         transform: scale(1.1);
+       }
+
       @include on-tablet640 {
         margin-top: 56px;
         width: 264px;
